@@ -1,0 +1,50 @@
+.history-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  border-width: 0px;
+  margin: 8px;
+}
+.time-accessed {
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.logo-url {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.heading {
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.domain-url {
+  font-size: 12px;
+  margin-right: 80px;
+}
+.button {
+  border-width: 0px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.delete-button {
+  height: 20px;
+  width: 20px;
+  border-width: 0px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.button-container {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+}
